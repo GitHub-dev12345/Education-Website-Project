@@ -1,22 +1,28 @@
 /* Navigation Section */
 #navbar {
     flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#navbar >ul {
+    width: 100%;
+    justify-content: space-around;
 }
 
 #navbar ul li a{
     font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
+    padding: 0px 30px;
+    border-radius: 7px;
 }
 
 /* Home Section */
 #home{
-    height: 380px;
+    height: 500px;
     padding: 0px 28px;
 }
 
 #home::before{
-    height: 510px;
+    height: 390px;
 }
 
 #home .heading{
@@ -27,13 +33,16 @@
     font-size: 0.9rem;
 }
 /* Services Section */
+#services-container{
+    margin: -20px 20px;
+}
 #services {
     flex-direction: column;
 }
 
 #services .box{
     padding: 14px;
-    margin: 2px 0px;
+    margin: 20px 20px;
     margin-bottom: 20px;
 }
 
@@ -63,3 +72,6 @@
     font-size: 13px;
     padding: 5px 8px;
 }
+
+
+@media all and (max-width: 1237px)
