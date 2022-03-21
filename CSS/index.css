@@ -1,7 +1,13 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 /* CSS Reset */
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 html{
@@ -50,7 +56,7 @@ html{
 /* Navigation Bar: List Styling */
 #navbar ul{
     display: flex;
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #navbar ul li{ 
@@ -98,7 +104,7 @@ html{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
 }
 
@@ -138,7 +144,7 @@ html{
 }
 
 #services .box p{
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Client-Section */
@@ -200,7 +206,7 @@ html{
     width: 100%;
     padding: 0.5rem;
     font-size: 1.1rem;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 10px;
 
 }
@@ -211,7 +217,7 @@ html{
 
 #contact-box label{
     font-size: 1.3rem;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer { 
@@ -224,7 +230,7 @@ footer {
 
 /* Utility Classes */
 .h-primary{
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3.5rem;
     padding: 11px;
     text-align: center;
@@ -232,7 +238,7 @@ footer {
 
 .heading{
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -259,7 +265,7 @@ footer {
 }
 
 .h-secondary{
-    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.3rem;
     padding: 11px;
 }
